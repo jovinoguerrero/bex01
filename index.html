@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilhas Nacionais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body><div>
+
+    <header>
+        <div>
+            <div id="barraSup-1">
+                <div id="hamburger" aria-expanded="true" role="button" onclick="toggle()">
+                    <svg viewBox="0 0 100 75" width="24" height="24" >
+                        <rect width="100" height="10" rx="8" fill="#ffffff"></rect>
+                        <rect y="25" width="100" height="10" rx="8" fill="#ffffff"></rect>
+                        <rect y="50" width="100" height="10" rx="8" fill="#ffffff"></rect>
+                    </svg>
+                </div>
+                <div id="logo" >
+                    <p style="margin:0">Logo</p>
+                </div>
+            </div>
+
+            <div id="barraSup-2">
+                <div id="barraPesquisa">
+                    Barra de pesquisa
+                </div>
+            </div>
+
+            <div id="barraSup-3">
+                <nav>Barra de navegación</nav>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <div id="main">
+            <div id="side">
+                <div id="sidebar">
+                    <div class="barOption" role="button">
+                        <div>icono</div>
+                        <span id="barContent-1" class="barContent">Conteúdo</span>
+                    </div>
+                    <div class="barOption" role="button">
+                        <div>icono</div>
+                        <span id="barContent-2" class="barContent">Conteúdo</span>
+                    </div>
+                    <div class="barOption" role="button">
+                        <div>icono</div>
+                        <span id="barContent-3" class="barContent">Conteúdo</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
+
+
+            <div id="principal">
+
+                <div>
+                    <div id="addCard" role="button">
+                        <div id="plusIcon">
+                            <img  src="icons/plus.svg" alt="plus icon">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="modalCreateCard" class="modalContainer">
+                    <div id="modalContent" class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Janela Modal</h2>
+                        <p>Aqui vai o nosso formulario</p>
+                        <form>
+                            <label>
+                                Nome Trilha:
+                                <input class="inputTrilha" type="text">
+                            </label>
+                            <label>
+                                Descrição:
+                                <input class="inputTrilha" type="text">
+                            </label>
+                            
+                            <input class="inputTrilha" type="text">
+                            <textarea class="inputTrilha"></textarea>
+                            <button type="button" onclick="add()">Criar</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- <div class="card">
+                    <figure>
+                        <div>
+                            <img class="card-img-top" src="https://i.ytimg.com/vi/qphyw3hZCh4/hqdefault.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Parque Laje até o Corcovado.</h5>
+                            <p class="card-text">
+                                A trilha do Parque Lage oferece o privilégio de ligar dois pontos turísticos imperdíveis do Rio de Janeiro: o Parque Lage e o mundialmente conhecido Corcovado. O parque abriga um palacete com um quadro para foto obrigatória, apontado para o Cristo Redentor. Há também pelos jardins lagos, grutas artificiais, um aquário e uma torre acústica construída para os treinos de canto lírico dos antigos proprietários da mansão. <br>
+
+                                Siga os caminhos de paralelepípedo à esquerda da mansão até encontrar uma pequena casa de pedra. A trilha começa ao lado dessa casa. O percurso exige atenção quanto à orientação e preparo físico para subir até atingir a estrada de ferro. Atravesse os trilhos e siga a trilha que leva à estrada e continue subindo até a entrada para o monumento do Cristo Redentor. O ingresso pode ser comprado no local.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tempo médio: 2h 20 min / 2h 40 min </li>
+                            <li class="list-group-item">Distância: 2.24km</li>
+                            <li class="list-group-item">Altura: 704 m</li>
+                            <li class="list-group-item">Dificuldade: Semi-pesada
+                            </li>
+                            </ul>
+                            <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </figure>
+                </div> -->
+
+                
+                <!-- <div id="asd"></div> -->
+                
+                
+            </div>
+
+        </div>
+
+    </main>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
